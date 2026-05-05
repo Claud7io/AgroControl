@@ -175,22 +175,6 @@ Si falla alguno → **Rechazado ❌**
 
 ---
 
-## 📸 Capturas de Pantalla
-
-### Login
-![Login](docs/screenshots/login.png)
-
-### Dashboard
-![Dashboard](docs/screenshots/dashboard.png)
-
-### Nuevo Control
-![Nuevo Control](docs/screenshots/nuevo-control.png)
-
-### Historial
-![Historial](docs/screenshots/historial.png)
-
----
-
 ## 🔐 Seguridad
 
 - ✅ Contraseñas cifradas con bcrypt (10 salt rounds)
@@ -260,7 +244,3 @@ IES Albarregas, Mérida
 Curso 2025/2026
 
 ---
-
-## 🙏 Agradecimientos
-
-A los profesores del IES Albarregas por su guía durante el desarrollo de este proyecto.
