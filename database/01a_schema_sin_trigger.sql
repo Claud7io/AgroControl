@@ -6,12 +6,16 @@
 -- Proyecto Intermodular DAW 25/26 - IES Albarregas
 -- ============================================================
 
-DROP DATABASE IF EXISTS agrocontrol;
-CREATE DATABASE agrocontrol
-  CHARACTER SET utf8mb4
-  COLLATE utf8mb4_unicode_ci;
+-- ============================================================
 
-USE agrocontrol;
+-- DROP DATABASE IF EXISTS agrocontrol;
+-- CREATE DATABASE agrocontrol
+--   CHARACTER SET utf8mb4
+--   COLLATE utf8mb4_unicode_ci;
+
+-- USE agrocontrol;
+
+-- ============================================================
 
 
 -- ------------------------------------------------------------

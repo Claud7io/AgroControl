@@ -3,7 +3,9 @@
 -- Requiere ejecutar previamente: 01_schema.sql
 -- ============================================================
 
-USE agrocontrol;
+-- ============================================================
+-- USE agrocontrol;
+-- ============================================================
 
 -- Limpiar tablas por si se ejecuta varias veces
 SET FOREIGN_KEY_CHECKS = 0;
