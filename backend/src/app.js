@@ -17,7 +17,13 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Middlewares globales
-app.use(cors()); // Habilitar CORS para peticiones desde el frontend
+app.use(cors({
+  origin: [
+    'http://localhost:5173',
+    /\.vercel\.app$/
+  ],
+  credentials: true
+}));; // Habilitar CORS para peticiones desde el frontend
 app.use(express.json()); // Parser de JSON en body
 app.use(express.urlencoded({ extended: true })); // Parser de URL-encoded
 
